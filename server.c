@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   server.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lrafael <lrafael@student.42.fr>            +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/06 13:42:48 by lrafael           #+#    #+#             */
-/*   Updated: 2024/10/05 15:15:18 by lrafael          ###   ########.fr       */
+/*   Updated: 2024/10/05 14:31:51 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ void	ft_nbr(int n)
 
 int	main(void)
 {
+	write(1, "Server PID: ", 12);
 	ft_nbr(getpid());
 	write(1, "\n", 1);
 	while (1)
