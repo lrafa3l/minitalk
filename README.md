@@ -47,7 +47,7 @@ Server PID: 12345
 ./client <PID> "Your message here"
 ```
 
-## Example:
+## Example
 
 ``` bash
 ./client 164481 "Hello World"
