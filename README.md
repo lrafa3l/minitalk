@@ -54,7 +54,8 @@ Server PID: 12345
 ```
 4. View the Output
 After sending the message, the server will display the received string in its terminal, like that:
-&nbsp;
+
 ![client](https://github.com/user-attachments/assets/11371d61-75ea-4023-a627-e735f66d6311)
-&nbsp;
+<br>
+
 ![server](https://github.com/user-attachments/assets/34d1ccc7-aaa9-44ce-9aaf-a289c7174318)
