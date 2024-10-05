@@ -39,7 +39,7 @@ First, start the server in a terminal window. The server will print its Process 
 #### Output:
 
 ``` arduino
-Server PID: 12345
+Server PID: 164481
 ```
 ### 3. Start the Client
 
